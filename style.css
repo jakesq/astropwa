@@ -1,0 +1,77 @@
+html {
+	background: white;
+}
+h1 {
+	font-family: "Helvetica";
+	font-weight: normal;
+	margin-top: 0;
+	text-align: center;
+}
+h3 {
+	font-size: 4em;
+	line-height: 1em;
+}
+header {
+	background: black url(media/images/space_header.png) repeat;
+}
+.description {
+	text-align: center;
+	font-size: 1.2em;
+}
+button {
+	display: block;
+	margin: 0 auto 2em;
+}
+main img[data-src] {
+	filter: blur(0.5em)
+}
+main img {
+	width: 30%;
+	min-width: 80px;
+	max-width: 160px;
+	padding-bottom: 15px;
+	filter: blur(0em);
+	transition: filter 0.5s;
+}
+.sunDistance {
+	display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+	align-items: center;
+}
+article {
+	display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+	align-items: center;
+	background-color: #EEEEEE;
+    padding: 20px;
+    margin: 0px 20px 20px 20px;
+    border-radius: 30px;
+}
+article:hover {
+    background-color: lightgrey;
+    cursor: pointer;
+}
+.articleItem {
+	width: 33%;
+	align-items: center;
+	display: flex;
+    justify-content: space-evenly;
+	align-items: center;
+}
+.customDialog{
+	border-radius: 30px;
+	border: none;
+	box-shadow: 0 9px 46px 8px rgba(0,0,0,.14) 0 11px 15px -7px rgba(0,0,0,.12) 0 24px 38px 3px rgba(0,0,0,.2);
+	width: 280px;
+}
+footer {
+	background: #2d2d2d url(media/images/space_header.png) repeat;
+}
+footer p {
+	color: white;
+	padding: 1em;
+	text-align: center;
+	font-size: 1.2em;
+}

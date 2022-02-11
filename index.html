@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <meta property="og:image" content="media/icons/512x512.png">
+        <title>Astronomical Insights</title>
+        <meta name="description" content="Info on our local Solar System">
+        <meta name="author" content="Jake A. Bailey">
+        <meta name="robots" content="index, follow">
+        <meta name="keywords" content="solar, system, science, nasa, jake, bailey, winchester">
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="manifest" href="astroinsights.webmanifest">
+        <link rel="stylesheet" href="style.css">
+        <script src="materialResources/material-design-lite/material.min.js"></script>
+        <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.min.css"/>
+        <script src="info/planet-info.js" defer></script>
+        <script src="app.js" defer></script>
+    </head>
+    <body>
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <div class="mdl-layout__header-column">
+                    <span class="mdl-layout-title">Astronomical Insights</span>
+                    <span class="mdl-layout-title" style="color:grey">NASA Science</span>
+                </div>
+                <div class="mdl-layout-spacer"></div>
+                <nav class="mdl-navigation">
+                    <img src="media/images/NASA_logo.png" alt="NASA Meatball Logo">
+                </nav>
+            </div>
+        </header>
+        <main>
+            <h1>Astronomical Insights</h1>
+            <p class="description">An overview of our local Solar System</p>
+            <br>
+            <section id="planets"></section>
+
+            <dialog class="mdl-dialog">
+                <h4 class="mdl-dialog__title">NAME</h4>
+                <div class="mdl-dialog__content">
+                    <p></p>
+                </div>
+                <div class="mdl-dialog__actions">
+                    <button type="button" class="mdl-button close"
+                        onclick="document.querySelector('dialog').close();">
+                            Close
+                    </button>
+                </div>
+            </dialog>
+        </main>
+        <footer>
+            <p>Astronomical Insights PWA by Jake Bailey.</p>
+        </footer>
+    </body>
+</html>
