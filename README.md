@@ -1,5 +1,5 @@
 # astropwa
-A PWA built in JavaScript to display the celestial bodies of our local solar system
+A PWA built with JavaScript to display the celestial bodies of our local solar system
 
 #### Desktop View
 ![desktop](https://raw.githubusercontent.com/jakesq/astropwa/main/desktop.png)
